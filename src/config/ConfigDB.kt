@@ -1,0 +1,28 @@
+package config
+
+object ConfigDB {
+    val DATABASE_LOGIN_TABLE = "user"
+    val DATABASE_CHARACTER_TABLE = "character"
+
+    val DATABASE_USER_FIELD = "username"
+    val DATABASE_PWD_FIELD = "password"
+    val DATABASE_EMAIL_FIELD = "email"
+    val DATABASE_ID_FIELD = "id"
+
+    val DATABASE_CHARACTER_ID_FIELD = "id"
+    val DATABASE_CHARACTER_ID_USER_FIELD = "id_user"
+    val DATABASE_CHARACTER_SPECIES_FIELD = "species"
+    val DATABASE_CHARACTER_MOVE_1_FIELD = "move_1"
+    val DATABASE_CHARACTER_MOVE_2_FIELD = "move_2"
+    val DATABASE_CHARACTER_MOVE_3_FIELD = "move_3"
+    val DATABASE_CHARACTER_MOVE_4_FIELD = "move_4"
+    val DATABASE_CHARACTER_LEVEL_FIELD = "level"
+    val DATABASE_CHARACTER_HP_IV_FIELD = "hp_iv"
+    val DATABASE_CHARACTER_ATK_IV_FIELD = "atk_iv"
+    val DATABASE_CHARACTER_DEF_IV_FIELD = "def_iv"
+    val DATABASE_CHARACTER_SPE_IV_FIELD = "spe_iv"
+    val DATABASE_CHARACTER_SPEED_IV_FIELD = "speed_iv"
+    val DATABASE_CHARACTER_EXP_FIELD = "exp"
+    val DATABASE_CHARACTER_NICKNAME_FIELD = "nickname"
+
+}
