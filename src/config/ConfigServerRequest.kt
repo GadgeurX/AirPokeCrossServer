@@ -1,8 +1,6 @@
 package config
 
 object ConfigServerRequest {
-
-    val userCharacterListRequest = "userCharacterListRequest"
-
-    val userStartersListRequest = "userStartersListRequest"
+    val USER_CHARACTERS_LIST_REQUEST = "USER_CHARACTERS_LIST_REQUEST"
+    val USER_STARTERS_LIST_REQUEST = "USER_STARTERS_LIST_REQUEST"
 }

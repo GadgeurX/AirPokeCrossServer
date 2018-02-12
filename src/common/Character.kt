@@ -197,6 +197,15 @@ class Character {
         createMoves()
     }
 
+    constructor(s: Species, id_user:Int, nick:String) {
+        level = 5
+        exp = 100
+        idUser = id_user
+        nickname = nick
+        createPokemon(s, level)
+        createMoves()
+    }
+
     //Create a brand new Character with a specified level
     constructor(s: Species, lvl: Int) {
         level = lvl

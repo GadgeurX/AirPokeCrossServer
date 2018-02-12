@@ -23,4 +23,7 @@ object ConfigSFSPacketKey {
 
     val STARTERS = "starters"
 
+    val STARTER_INDEX = "starter_index"
+    val STARTER_NICKNAME = "starter_nickname"
+
 }
