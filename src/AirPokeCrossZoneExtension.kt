@@ -16,11 +16,12 @@ import java.util.*
  */
 class AirPokeCrossZoneExtension : SFSExtension() {
 
-    val mLoginManager:LoginAssistantComponent = LoginAssistantComponent(this)
+    lateinit var mLoginManager:LoginAssistantComponent
 
     override fun init() {
         trace("[Info] Start " + this.javaClass.simpleName)
 
+        mLoginManager = LoginAssistantComponent(this)
         mLoginManager.config.loginTable = ConfigDB.DATABASE_LOGIN_TABLE
         mLoginManager.config.userNameField = ConfigDB.DATABASE_EMAIL_FIELD
         mLoginManager.config.passwordField = ConfigDB.DATABASE_PWD_FIELD
@@ -45,6 +46,7 @@ class AirPokeCrossZoneExtension : SFSExtension() {
     class EventHandler : BaseServerEventHandler() {
         override fun handleServerEvent(event: ISFSEvent?) {
             val user: SFSUser = event?.getParameter(SFSEventParam.USER) as SFSUser
+            user.properties[ConfigSFSVariable.USER_ID] = user.session.getProperty(ConfigSFSVariable.USER_ID)
             api.joinRoom(user, user.zone.getRoomByName(ConfigRoom.LOBBY_ROOM_NAME))
         }
     }

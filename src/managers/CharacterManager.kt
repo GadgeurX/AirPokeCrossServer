@@ -45,7 +45,7 @@ object CharacterManager {
     fun setStarterOfUser(user: User?) {
         if (user != null && !userHasStarterSet(user)) {
             val rand = Random()
-            var starters = SFSArray()
+            val starters = SFSArray()
 
             var index = rand.nextInt(ConfigGame.START_CHARACTER.size)
             starters.addInt(ConfigGame.START_CHARACTER[index].ordinal)
@@ -71,8 +71,8 @@ object CharacterManager {
      */
     fun createCharacterOfUser(user: User?, indexUserStarter: Int, nickname:String) {
         if (user != null && userHasStarterSet(user)) {
-            var indexStarter = (user.properties[ConfigSFSVariable.USER_STARTERS] as SFSArray).getInt(indexUserStarter)
-            var starterSpecies = ConfigGame.START_CHARACTER[indexStarter]
+            val indexStarter = (user.properties[ConfigSFSVariable.USER_STARTERS] as SFSArray).getInt(indexUserStarter)
+            val starterSpecies = ConfigGame.START_CHARACTER[indexStarter]
             DataManager.createCharacter(user.zone.dbManager, Character(starterSpecies, UserManager.getUserId(user), nickname))
         }
     }

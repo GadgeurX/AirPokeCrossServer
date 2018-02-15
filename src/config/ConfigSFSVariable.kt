@@ -1,6 +1,6 @@
 package config
 
 object ConfigSFSVariable {
-    val USER_ID = "id_user"
-    val USER_STARTERS = "starters"
+    const val USER_ID = "id_user"
+    const val USER_STARTERS = "starters"
 }
