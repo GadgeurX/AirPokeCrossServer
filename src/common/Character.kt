@@ -201,9 +201,9 @@ class Character {
         level = 5
         exp = 100
         idUser = id_user
-        nickname = nick
         createPokemon(s, level)
         createMoves()
+        nickname = nick
     }
 
     //Create a brand new Character with a specified level
@@ -8202,11 +8202,6 @@ class Character {
         if (move[3] != null)
             response.putInt(ConfigSFSPacketKey.CHARACTER_MOVE_4, move[3]!!.ordinal)
         response.putInt(ConfigSFSPacketKey.CHARACTER_LEVEL, level)
-        response.putInt(ConfigSFSPacketKey.CHARACTER_HP_IV, HP_IV)
-        response.putInt(ConfigSFSPacketKey.CHARACTER_ATK_IV, ATK_IV)
-        response.putInt(ConfigSFSPacketKey.CHARACTER_DEF_IV, DEF_IV)
-        response.putInt(ConfigSFSPacketKey.CHARACTER_SPE_IV, SPCL_IV)
-        response.putInt(ConfigSFSPacketKey.CHARACTER_SPEED_IV, SPEED_IV)
         response.putInt(ConfigSFSPacketKey.CHARACTER_EXP, exp)
         response.putUtfString(ConfigSFSPacketKey.CHARACTER_NICKNAME, nickname)
         return response
