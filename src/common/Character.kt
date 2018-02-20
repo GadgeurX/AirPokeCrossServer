@@ -289,10 +289,10 @@ class Character {
     }
 
     constructor(obj: ISFSObject) : this(Species.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_SPECIES_FIELD)],
-            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_1_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_1_FIELD)] else null,
-            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_2_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_2_FIELD)] else null,
-            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_3_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_3_FIELD)] else null,
-            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_4_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_4_FIELD)] else null,
+            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_1_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_1_FIELD)] else Move.NONE,
+            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_2_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_2_FIELD)] else Move.NONE,
+            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_3_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_3_FIELD)] else Move.NONE,
+            if (obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_4_FIELD) != null)  Move.values()[obj.getInt(ConfigDB.DATABASE_CHARACTER_MOVE_4_FIELD)] else Move.NONE,
             obj.getInt(ConfigDB.DATABASE_CHARACTER_LEVEL_FIELD),
             obj.getInt(ConfigDB.DATABASE_CHARACTER_HP_IV_FIELD),
             obj.getInt(ConfigDB.DATABASE_CHARACTER_ATK_IV_FIELD),

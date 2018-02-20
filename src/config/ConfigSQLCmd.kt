@@ -10,7 +10,7 @@ object ConfigSQLCmd {
 
     fun createUserCharacter(character: Character): String {
         return "INSERT INTO " + ConfigDB.DATABASE_CHARACTER_TABLE + " (id_user, species, move_1," +
-                "move_2, move_3, move_4, level, hp_iv, atk_iv, def_iv, spe_iv, speed_iv, exp, nickname)" +
+                "move_2, move_3, move_4, level, hp_iv, atk_iv, def_iv, spe_iv, speed_iv, hp_ev, atk_ev, def_ev, spe_ev, speed_ev, exp, nickname)" +
                 "VALUES (" + character.idUser + "," +
                 character.species.ordinal + "," +
                 (if (character.move[0] != null) character.move[0]!!.ordinal else "null") + "," +
@@ -23,6 +23,11 @@ object ConfigSQLCmd {
                 character.DEF_IV + "," +
                 character.SPCL_IV + "," +
                 character.SPEED_IV + "," +
+                character.HP_EV + "," +
+                character.ATK_EV + "," +
+                character.DEF_EV + "," +
+                character.SPCL_EV + "," +
+                character.SPEED_EV + "," +
                 character.exp + ",\"" +
                 character.nickname + "\");"
     }

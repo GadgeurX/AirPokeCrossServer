@@ -13,11 +13,6 @@ object ConfigSFSPacketKey {
     const val CHARACTER_MOVE_3 = "move_3"
     const val CHARACTER_MOVE_4 = "move_4"
     const val CHARACTER_LEVEL = "level"
-    const val CHARACTER_HP_IV = "hp_iv"
-    const val CHARACTER_ATK_IV = "atk_iv"
-    const val CHARACTER_DEF_IV = "def_iv"
-    const val CHARACTER_SPE_IV = "spe_iv"
-    const val CHARACTER_SPEED_IV = "speed_iv"
     const val CHARACTER_EXP = "exp"
     const val CHARACTER_NICKNAME = "nickname"
 
