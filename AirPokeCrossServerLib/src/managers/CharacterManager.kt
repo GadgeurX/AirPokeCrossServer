@@ -1,5 +1,6 @@
 package managers
 
+import com.smartfoxserver.v2.entities.SFSUser
 import com.smartfoxserver.v2.entities.User
 import com.smartfoxserver.v2.entities.data.SFSArray
 import com.smartfoxserver.v2.entities.data.SFSObject
@@ -11,6 +12,15 @@ import java.util.*
  * This class handle all character related things
  */
 object CharacterManager {
+
+    private val charactersMap: MutableMap<Int, Character> = mutableMapOf()
+
+    /**
+     * Set the selected character of user
+     */
+    fun setUserCharacter(user : User, character: Character) {
+        charactersMap[UserManager.getUserId(user)] = character
+    }
 
     /**
      * Send all the user's characters
@@ -69,7 +79,7 @@ object CharacterManager {
     /**
      * Create a new character on db from user starter list (store in user object) (indexUserStarter is the index of the starter in that list)
      */
-    fun createCharacterOfUser(user: User?, indexUserStarter: Int, nickname:String) {
+    fun createCharacterOfUser(user: User?, indexUserStarter: Int, nickname: String) {
         if (user != null && userHasStarterSet(user)) {
             val indexStarter = (user.properties[ConfigSFSVariable.USER_STARTERS] as SFSArray).getInt(indexUserStarter)
             val starterSpecies = Character.Species.values()[indexStarter]

@@ -8,6 +8,10 @@ object ConfigSQLCmd {
         return "SELECT * FROM " + ConfigDB.DATABASE_CHARACTER_TABLE + " WHERE id_user=" + id + ";"
     }
 
+    fun getUserCharacterByUserIdAndCharacterId(userId: Int, characterId: Int): String {
+        return "SELECT * FROM " + ConfigDB.DATABASE_CHARACTER_TABLE + " WHERE id_user=" + userId + " AND id=" + characterId + ";"
+    }
+
     fun createUserCharacter(character: Character): String {
         return "INSERT INTO " + ConfigDB.DATABASE_CHARACTER_TABLE + " (id_user, species, move_1," +
                 "move_2, move_3, move_4, level, hp_iv, atk_iv, def_iv, spe_iv, speed_iv, hp_ev, atk_ev, def_ev, spe_ev, speed_ev, exp, nickname)" +

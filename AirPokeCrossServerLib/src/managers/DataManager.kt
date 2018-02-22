@@ -26,4 +26,13 @@ object DataManager {
     fun createCharacter(dbManager: IDBManager, character:Character) {
         dbManager.executeInsert(ConfigSQLCmd.createUserCharacter(character), arrayOf<SFSObject>())
     }
+
+    fun loadUserCharacter(user: User, characterId: Int?): Character? {
+        val query = ConfigSQLCmd.getUserCharacterByUserIdAndCharacterId(UserManager.getUserId(user), characterId!!)
+        val characterArray = user.zone.dbManager.executeQuery(query, arrayOf<SFSObject>())
+        return if (characterArray.size() == 1)
+            Character(characterArray.getSFSObject(0))
+        else
+            null
+    }
 }

@@ -4,7 +4,8 @@ import config.ConfigClientRequest
 import lobby.*
 
 /**
- * This class handle the lobby room (character creation / selection / world join)
+ * This class handle the lobby room (character creation / selection / world join). it redirect to
+ * @see AirPokeCrossGameExtension
  */
 class AirPokeCrossLobbyExtension : SFSExtension() {
     override fun init() {
@@ -14,5 +15,6 @@ class AirPokeCrossLobbyExtension : SFSExtension() {
         addRequestHandler(ConfigClientRequest.USER_CHARACTERS_LIST_REQUEST, OnRequestUserCharactersHandler())
         addRequestHandler(ConfigClientRequest.USER_CREATE_CHARACTER_REQUEST, OnCreateCharacterRequestHandler())
         addRequestHandler(ConfigClientRequest.USER_DELETE_CHARACTER_REQUEST, OnDeleteCharacterHandler())
+        addRequestHandler(ConfigClientRequest.USER_SELECT_CHARACTER_REQUEST, OnRequestUserSelectCharacterHandler())
     }
 }

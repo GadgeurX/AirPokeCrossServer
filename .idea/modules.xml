@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AirPokeCrossServer.iml" filepath="$PROJECT_DIR$/AirPokeCrossServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AirPokeCrossServerExtension/AirPokeCrossServerExtension.iml" filepath="$PROJECT_DIR$/AirPokeCrossServerExtension/AirPokeCrossServerExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AirPokeCrossServerLib/AirPokeCrossServerLib.iml" filepath="$PROJECT_DIR$/AirPokeCrossServerLib/AirPokeCrossServerLib.iml" />
     </modules>
   </component>
 </project>

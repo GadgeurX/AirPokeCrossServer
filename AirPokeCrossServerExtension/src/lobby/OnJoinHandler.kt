@@ -7,7 +7,7 @@ import com.smartfoxserver.v2.entities.User
 import managers.CharacterManager
 
 /**
- * This claas handle the on join event. it send the list of character to user
+ * This class handle the on join event. it send the list of characters to user
  */
 class OnJoinHandler : BaseServerEventHandler() {
     override fun handleServerEvent(event: ISFSEvent?) {
