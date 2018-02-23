@@ -9,6 +9,7 @@ import com.smartfoxserver.v2.extensions.SFSExtension
 import config.ConfigDB
 import config.ConfigRoom
 import config.ConfigSFSVariable
+import managers.MapManager
 import java.util.*
 
 /**
@@ -37,6 +38,7 @@ class AirPokeCrossZoneExtension : SFSExtension() {
         }
 
         addEventHandler(SFSEventType.USER_JOIN_ZONE, EventHandler())
+        MapManager.loadMaps(this)
     }
 
     /**

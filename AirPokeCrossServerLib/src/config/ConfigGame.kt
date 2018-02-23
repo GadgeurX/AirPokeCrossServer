@@ -31,4 +31,6 @@ object ConfigGame {
             Character.Species.FARFETCH_D,
             Character.Species.VOLTORB,
             Character.Species.GOLDEEN)
+
+    const val MAP_DIRECTORY = "./maps/"
 }

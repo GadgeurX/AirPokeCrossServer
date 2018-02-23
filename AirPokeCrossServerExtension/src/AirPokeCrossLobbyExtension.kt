@@ -2,6 +2,7 @@ import com.smartfoxserver.v2.core.SFSEventType
 import com.smartfoxserver.v2.extensions.SFSExtension
 import config.ConfigClientRequest
 import lobby.*
+import managers.MapManager
 
 /**
  * This class handle the lobby room (character creation / selection / world join). it redirect to
