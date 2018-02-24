@@ -278,7 +278,7 @@ def read_block(bytes, offset, i):
     block.append((palette, tile, attributes))
   return block
 
-def draw_block(screen, palettes, tiles, blocks, x, y, block_num):
+def draw_block(screen, palettes, tiles, blocks, x, y, block_num, tile_set, extra_tile_set):
   # The first four tiles are the bottom tiles and the last four are the top
   # ones. The top tiles also have a mask to them, so we have to draw them
   # differently.
@@ -286,7 +286,9 @@ def draw_block(screen, palettes, tiles, blocks, x, y, block_num):
   output_file.write(str(int(x / 16)) + " ") 
   output_file.write(str(int(y / 16)) + " ")
   output_file.write(str(int(block_num[0])) + " ")
-  output_file.write(str(int(block_num[1])) + "\n")
+  output_file.write(str(int(block_num[1])) + " ")
+  output_file.write(str(int(tile_set)) + " ")
+  output_file.write(str(int(extra_tile_set)) + "\n")
   for i, (palette, tile, attributes) in enumerate(block):
     x_offset = (i % 2) * 8
     y_offset = int((i % 4) / 2) * 8
@@ -331,7 +333,7 @@ def draw_map(screen, bytes, map_, xx, yy):
   blocks.extend(extra_blocks)
 
   for (x, y) in tile_sprites:
-    draw_block(screen, palettes, tiles, blocks, xx + x * 16, yy + y * 16, tile_sprites[(x, y)])
+    draw_block(screen, palettes, tiles, blocks, xx + x * 16, yy + y * 16, tile_sprites[(x, y)], global_pointer, local_pointer)
 
   return label
 

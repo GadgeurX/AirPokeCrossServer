@@ -8,14 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0cb743-1908-48d9-96ed-f02d7d268ba0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Maps/home.map" afterPath="$PROJECT_DIR$/Maps/0.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMap.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMapChecksum.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossMapGenerator/output.map" afterPath="$PROJECT_DIR$/AirPokeCrossMapGenerator/output.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossMapGenerator/pokemap.py" afterPath="$PROJECT_DIR$/AirPokeCrossMapGenerator/pokemap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossLobbyExtension.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossLobbyExtension.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigRoom.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigRoom.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSPacketKey.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSPacketKey.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigServerRequest.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigServerRequest.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt" afterPath="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maps/0.map" afterPath="$PROJECT_DIR$/Maps/0.map" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,65 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="AirPokeCrossZoneExtension.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt">
+      <file leaf-file-name="OnRequestUserSelectCharacterHandler.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomManager.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapManager.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="580">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
-                <element signature="e#18#133#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigGame.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirPokeCrossGameExtension.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
+                <element signature="e#15#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,20 +107,26 @@
         <option value="$PROJECT_DIR$/src/config/ConfigClientRequest.kt" />
         <option value="$PROJECT_DIR$/src/AirPokeCrossLobbyExtension.kt" />
         <option value="$PROJECT_DIR$/src/managers/CharacterManager.kt" />
-        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserCharactersHandler.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnJoinHandler.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/DataManager.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSQLCmd.kt" />
-        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/CharacterManager.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.java" />
-        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossLobbyExtension.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt" />
-        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt" />
-        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigRoom.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMapChecksum.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSPacketKey.kt" />
         <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMap.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigServerRequest.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt" />
+        <option value="$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt" />
       </list>
     </option>
   </component>
@@ -188,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +167,13 @@
               <item name="AirPokeCrossServer" type="462c0819:PsiDirectoryNode" />
               <item name="AirPokeCrossServerExtension" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirPokeCrossServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirPokeCrossServer" type="462c0819:PsiDirectoryNode" />
+              <item name="AirPokeCrossServerExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AirPokeCrossServer" type="b2602c69:ProjectViewProjectNode" />
@@ -256,6 +223,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -267,15 +236,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\romai\Documents\GitHub\AirPokeCrossServer\AirPokeCrossServerExtension\src" />
+      <recent name="C:\Users\romai\Documents\GitHub\AirPokeCrossServer\AirPokeCrossServerExtension" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="game" />
       <recent name="lobby" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\romai\Documents\GitHub\AirPokeCrossServer\Maps" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\romai\Documents\GitHub\AirPokeCrossServer\AirPokeCrossServerExtension\src" />
-      <recent name="C:\Users\romai\Documents\GitHub\AirPokeCrossServer\AirPokeCrossServerExtension" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +382,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75850147" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -423,6 +393,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -435,13 +406,132 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#18#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#18#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/CharacterManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
           <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-          <folding>
-            <element signature="e#18#270#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="97" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
           <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-          <folding>
-            <element signature="e#18#270#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
           <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-          <folding>
-            <element signature="e#18#270#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,52 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnDeleteCharacterHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigRoom.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSVariable.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestStarterCharacterListHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#209#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigServerRequest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnCreateCharacterRequestHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="94" lean-forward="false" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,15 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSPacketKey.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,23 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176103">
           <caret line="8208" column="1" lean-forward="true" selection-start-line="8208" selection-start-column="1" selection-end-line="8208" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserCharactersHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="123" lean-forward="false" selection-start-line="11" selection-start-column="123" selection-end-line="11" selection-end-column="123" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,103 +641,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#15#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/CharacterManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.java" />
     <entry file="file://$PROJECT_DIR$/Maps/0.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossLobbyExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="115" lean-forward="false" selection-start-line="18" selection-start-column="115" selection-end-line="18" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#175#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossZoneExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt">
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/RoomManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigRoom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestStarterCharacterListHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnDeleteCharacterHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnCreateCharacterRequestHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserCharactersHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMapChecksum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigSFSPacketKey.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="e#16#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/MapManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="1392">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="e#18#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/common/Map.kt">
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossLobbyExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="290">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="113" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/game/OnRequestMap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigServerRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigClientRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/managers/CharacterManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/AirPokeCrossGameExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerLib/src/config/ConfigGame.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirPokeCrossServerExtension/src/lobby/OnRequestUserSelectCharacterHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

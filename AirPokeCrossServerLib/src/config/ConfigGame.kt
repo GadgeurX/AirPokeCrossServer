@@ -33,4 +33,12 @@ object ConfigGame {
             Character.Species.GOLDEEN)
 
     const val MAP_DIRECTORY = "./maps/"
+
+    const val DEFAULT_AOI_X = 10
+    const val DEFAULT_AOI_Y = 10
+    const val GAME_MAP_MAX_USER = 50000
+    const val GAME_MAP_SPECTATOR = 10
+    const val USER_MAX_LIMBO_SECONDS = 20
+
+    const val USER_JOIN_DEFAULT_MAP = 0
 }

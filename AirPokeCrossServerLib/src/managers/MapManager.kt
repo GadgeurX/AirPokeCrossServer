@@ -27,4 +27,23 @@ object MapManager {
             extension.trace("Cannot load map folder")
         }
     }
+
+    fun getMapChecksum(index : Int): Int {
+        val tileArray = maps[index]!!.tileArray
+        var checksum = 0
+        var x = 0
+        while (x < maps[index]!!.width) {
+            var y = 0
+            while (y < maps[index]!!.height) {
+                checksum = (checksum + tileArray[x][y]) % 10000000
+                y++
+            }
+            x++
+        }
+        return checksum
+    }
+
+    fun getMap(index : Int): Map {
+        return maps[index]!!
+    }
 }
